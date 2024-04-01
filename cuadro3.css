@@ -1,0 +1,45 @@
+body {
+    margin: 0; /* Elimina el margen predeterminado del cuerpo */
+    overflow: hidden; /* Evita el desplazamiento vertical y horizontal */
+}
+
+.contenedor-columnas {
+    display: flex; /* Utiliza el modelo de diseño flexbox */
+    justify-content: space-around; /* Distribuye las columnas uniformemente en el contenedor */
+    align-items: stretch; /* Estira las columnas para que ocupen todo el alto del contenedor */
+    height: 100vh; /* Establece la altura del contenedor al 100% del viewport */
+}
+
+.columna1 {
+    flex: 1; /* Hace que todas las columnas ocupen el mismo espacio */
+    background-color: #0D5259; /* Color de fondo de las columnas */
+    padding: 20px; /* Espacio interno dentro de cada columna */
+    box-sizing: border-box; /* Incluye el relleno en el ancho total */
+    border: 1px solid #0D5259; /* Borde alrededor de cada columna */
+    display: flex; /* Utiliza el modelo de diseño flexbox */
+    flex-direction: column; /* Alinea el contenido verticalmente */
+    align-items: center; /* Centra verticalmente el contenido */
+}
+
+.columna2 {
+    flex: 1; /* Hace que todas las columnas ocupen el mismo espacio */
+    background-color: #F4E0CC; /* Color de fondo de las columnas */
+    padding: 20px; /* Espacio interno dentro de cada columna */
+    box-sizing: border-box; /* Incluye el relleno en el ancho total */
+    border: 1px solid #F4E0CC; /* Borde alrededor de cada columna */
+    display: flex; /* Utiliza el modelo de diseño flexbox */
+    flex-direction: column; /* Alinea el contenido verticalmente */
+    justify-content: center; /* Centra verticalmente el contenido */
+    text-align: center; /* Centra horizontalmente el texto */
+}
+
+.columna3 {
+    flex: 1; /* Hace que todas las columnas ocupen el mismo espacio */
+    background-color: #6AC23F; /* Color de fondo de las columnas */
+    padding: 20px; /* Espacio interno dentro de cada columna */
+    box-sizing: border-box; /* Incluye el relleno en el ancho total */
+    border: 1px solid #6AC23F; /* Borde alrededor de cada columna */
+    display: flex; /* Utiliza el modelo de diseño flexbox */
+    flex-direction: column; /* Alinea el contenido verticalmente */
+    align-items: center; /* Centra verticalmente el contenido */
+}

@@ -1,0 +1,131 @@
+/* Estilos específicos para la página del cuadro 1 */
+body {
+    background-color: #FEF7DD; /* Color de fondo deseado */
+    margin: 0;
+    padding: 0;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    overflow-x: hidden; /* Ocultar la barra de desplazamiento horizontal */
+}
+
+.cuadro-1 {
+    flex-grow: 1; /* Los cuadros ocupan todo el espacio disponible */
+    background-color: #FEF7DD;
+    padding: 20px;
+    text-align: center;
+    width: 100%; /* El cuadro grande ocupa el 100% del ancho disponible */
+    height: 100vh; /* Establecer la altura al 100% del viewport */
+}
+
+.cuadro-1 h1 {
+    color: #000000;
+    font-size: 24px;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Distribuir el espacio entre los cuadros */
+    margin: 0; /* Eliminar márgenes */
+    padding: 0; /* Eliminar relleno */
+}
+
+.cuadroJTL {
+    flex: 33.3333333333%; /* Los cuadros ocupan un tercio del espacio horizontal */
+    padding: 20px;
+    margin: 10px;
+    background-color: #8CA87C;
+    border: 1px solid #8CA87C;
+    text-align: center;
+    flex-grow: 1; /* Los cuadros ocupan todo el espacio disponible */
+}
+
+.cuadroJTL img{
+    background-image: url('imagenes/UTADEO.jpg'); /* Ruta de tu imagen */
+    width: 350px; /* Ancho de 200 píxeles */
+    height: 250px; /* Alto de 100 píxeles */
+
+}
+
+.cuadroUNT {
+    flex: 33.3333333333%; /* Los cuadros ocupan un tercio del espacio horizontal */
+    padding: 20px;
+    margin: 10px;
+    background-color: #ffeecc;
+    border: 1px solid #ffeecc;
+    text-align: center;
+    flex-grow: 1; /* Los cuadros ocupan todo el espacio disponible */
+}
+
+.cuadroUNT img{
+    background-image: url('imagenes/UNITEC.png'); /* Ruta de tu imagen */
+    width: 350px; /* Ancho de 200 píxeles */
+    height: 250px; /* Alto de 100 píxeles */
+}
+
+.cuadroAN {
+    flex: 33.3333333333%; /* Los cuadros ocupan un tercio del espacio horizontal */
+    padding: 20px;
+    margin: 10px;
+    background-color: #8CA87C;
+    border: 1px solid #8CA87C;
+    text-align: center;
+    flex-grow: 1; /* Los cuadros ocupan todo el espacio disponible */
+}
+
+.cuadroAN img{
+    background-image: url('imagenes/FUAN.jpg'); /* Ruta de tu imagen */
+    width: 350px; /* Ancho de 200 píxeles */
+    height: 250px; /* Alto de 100 píxeles */
+}
+
+h2 {
+    /* Estilos para el título fuera y debajo de los cuadros */
+    text-align: center;
+    margin-top: 20px; /* Margen superior para separarlo de los cuadros */
+}
+
+
+.cuadro-grande {
+    /* Estilos para el cuadro grande */
+    width: 50%; /* Ancho del cuadro grande */
+    margin: 0 auto; /* Centrar el cuadro grande horizontalmente */
+    padding: 80px; /* Espacio alrededor del contenido del cuadro grande */
+    background-color: #FEF7DD;
+    border: 1px solid #FEF7DD;
+    text-align: center;
+    max-width: 850px; /* Ancho máximo del cuadro grande */
+}
+.container {
+    width: 80%; /* Establece un ancho fijo para el contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    display: flex;
+}
+.cuadro-e, .cuadro-j {
+    flex-grow: 0; /* Evita que los cuadros se expandan */
+    width: 50%; /* Ancho del 50% para cada cuadro */
+    text-align: center;
+}
+
+.cuadro-e {
+    margin-right: 5px;
+    background-color: #8CA87C;
+    border: 1px solid #8CA87C;
+    text-align: center;
+}
+
+.cuadro-j {
+    background-color: #8CA87C;
+    border: 1px solid #8CA87C;
+    text-align: center;
+}
+
+.cuadro-grande2 {
+    /* Estilos para el cuadro grande */
+    width: 50%; /* Ancho del cuadro grande */
+    margin: 0 auto; /* Centrar el cuadro grande horizontalmente */
+    padding: 80px; /* Espacio alrededor del contenido del cuadro grande */
+    background-color: #FEF7DD;
+    border: 1px solid #FEF7DD;
+    text-align: center;
+    max-width: 850px; /* Ancho máximo del cuadro grande */
+}

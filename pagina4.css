@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    align-items: center; /* Centra verticalmente */
+    flex-direction: column; /* Alinea los elementos en una columna */
+    text-align: center;
+    background-image: url('imagenes/Diseño\ sin\ título.png');
+    background-size: cover; /* Para cubrir todo el fondo */
+    background-position: center; /* Para centrar la imagen */
+}
+
+.pagina1 {
+    background-image: url('imagenes/Diseño\ sin\ título.png');
+    background-size: cover; /* Para cubrir todo el fondo */
+    background-position: center; /* Para centrar la imagen */
+    background-repeat: no-repeat; /* Para evitar que la imagen se repita */
+}
+}
+.pagina2{
+    background-image: url('imagenes/Diseño\ sin\ título.png');
+    background-size: cover; /* Para cubrir todo el fondo */
+    background-position: center; /* Para centrar la imagen */
+    background-repeat: no-repeat; /* Para evitar que la imagen se repita */
+}
+}
+.pagina3{
+    background-image: url('imagenes/Diseño\ sin\ título.png');
+    background-size: cover; /* Para cubrir todo el fondo */
+    background-position: center; /* Para centrar la imagen */
+    background-repeat: no-repeat; /* Para evitar que la imagen se repita */
+}
+}

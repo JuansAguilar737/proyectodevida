@@ -1,0 +1,191 @@
+body {
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+    background-color: #F9F5F1; /* Color de fondo deseado */
+    height: 100vh; /* Establece la altura al 100% del viewport */
+}
+
+.titulo-principal {
+    text-align: center; /* Centra el texto */
+    margin-bottom: 20px; /* Añade un margen inferior para separar el título de los cuadros */
+    /* Puedes agregar más estilos según sea necesario */
+    font-size: 24px; /* Tamaño de la fuente */
+    color: #333; /* Color del texto */
+}
+
+.contenedor {
+    display: flex;
+    width: 100%;
+}
+
+.cuadro-izquierdo {
+    width: 70%;
+    background-color: #3B5060; /* Color de fondo del cuadro izquierdo */
+    padding: 80px; /* Espacio interno para contenido */
+    margin-left: 150px;
+}
+
+
+
+.cuadro-derecho {
+    width: 30%;
+    background-color: #D0DACF; /* Color de fondo del cuadro derecho */
+    padding: 80px; /* Espacio interno para contenido */
+    position: center; /* Establece el contexto de posición */
+}
+.imagen-circular {
+    width: 100%; /* Ancho de la imagen al 100% del contenedor */
+    height: 100%; /* Altura de la imagen al 100% del contenedor */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Escala la imagen para que llene el contenedor sin deformarla */
+}
+
+
+
+.contenedor2 {
+    display: flex;
+    width: 100%;
+}
+
+
+
+.cuadro-izquierdo2 {
+    width: 30%;
+    width: 30%;
+    background-color: #AC99AC ; /* Color de fondo del cuadro derecho */
+    padding: 80px; /* Espacio interno para contenido */
+    position: center; /* Establece el contexto de posición */
+}
+.imagen-circular {
+    width: 100%; /* Ancho de la imagen al 100% del contenedor */
+    height: 100%; /* Altura de la imagen al 100% del contenedor */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Escala la imagen para que llene el contenedor sin deformarla */
+}
+
+
+
+.cuadro-derecho2 {
+    width: 70%;
+    background-color: #4A7168; /* Color de fondo del cuadro derecho */
+    padding: 80px; /* Espacio interno para contenido */
+    margin-right: 150px;
+}
+
+
+
+.contenedor3 {
+    display: flex;
+    width: 100%;
+}
+
+.cuadro-izquierdo3 {
+    width: 70%;
+    background-color: #D0DACF; /* Color de fondo del cuadro izquierdo */
+    padding: 80px; /* Espacio interno para contenido */
+    margin-left: 150px;
+}
+
+
+
+.cuadro-derecho3 {
+    width: 30%;
+    background-color: #B9C7C6; /* Color de fondo del cuadro derecho */
+    padding: 80px; /* Espacio interno para contenido */
+    position: center; /* Establece el contexto de posición */
+}
+.imagen-circular3 {
+    width: 100%; /* Ancho de la imagen al 100% del contenedor */
+    height: 100%; /* Altura de la imagen al 100% del contenedor */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Escala la imagen para que llene el contenedor sin deformarla */
+}
+
+
+
+.contenedor4 {
+    display: flex;
+    width: 100%;
+}
+
+
+
+.cuadro-izquierdo4 {
+    width: 30%;
+    width: 30%;
+    background-color: #3B5060; /* Color de fondo del cuadro derecho */
+    padding: 80px; /* Espacio interno para contenido */
+    position: center; /* Establece el contexto de posición */
+}
+.imagen-circular4 {
+    width: 100%; /* Ancho de la imagen al 100% del contenedor */
+    height: 100%; /* Altura de la imagen al 100% del contenedor */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Escala la imagen para que llene el contenedor sin deformarla */
+}
+
+
+
+.cuadro-derecho4 {
+    width: 70%;
+    background-color: #AC99AC; /* Color de fondo del cuadro derecho */
+    padding: 80px; /* Espacio interno para contenido */
+    margin-right: 150px;
+}
+
+
+
+.contenedor5 {
+    display: flex;
+    width: 100%;
+}
+
+.cuadro-izquierdo5 {
+    width: 70%;
+    background-color: #B9C7C6; /* Color de fondo del cuadro izquierdo */
+    padding: 80px; /* Espacio interno para contenido */
+    margin-left: 150px;
+}
+
+
+
+.cuadro-derecho5 {
+    width: 30%;
+    background-color: #4A7168; /* Color de fondo del cuadro derecho */
+    padding: 80px; /* Espacio interno para contenido */
+    position: center; /* Establece el contexto de posición */
+}
+.imagen-circular5 {
+    width: 100%; /* Ancho de la imagen al 100% del contenedor */
+    height: 100%; /* Altura de la imagen al 100% del contenedor */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Escala la imagen para que llene el contenedor sin deformarla */
+}
+
+
+
+.contenedor6 {
+    display: flex;
+    width: 100%;
+}
+
+
+
+.cuadro-izquierdo6 {
+    width: 30%;
+    width: 30%;
+    background-color: #3B5060; /* Color de fondo del cuadro derecho */
+    padding: 80px; /* Espacio interno para contenido */
+    position: center; /* Establece el contexto de posición */
+}
+
+.cuadro-derecho6 {
+    width: 100%;
+    background-color: #AC99AC; /* Color de fondo del cuadro derecho */
+    padding: 500px; /* Espacio interno para contenido */
+    margin-right: 150px;
+}
+
+
+
+
